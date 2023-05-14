@@ -360,7 +360,7 @@
 
 
 <h1 id="a-fast-and-efficient-javascript-curry-implementation">A fast and efficient JavaScript curry implementation</h1>
-<p>This was a <a href="https://leetcode.com/discuss/study-guide/3458761/Open-to-Registration!-30-Days-of-LC-JavaScript-Challenge/?utm_campaign=Banner10&amp;utm_medium=Banner&amp;utm_source=Banner&amp;gio_link_id=noqbNLA9">Thirty Days of JavaScript</a> challenge over on LeetCode. It's a nice sequence, building up to harder problems and focussing on fundametals, I do recommend it!</p>
+<p>EDIT: whoops this implementation passes every test case on leetcode but it's fucking wrong I'll fix the post later goodnight</p><p>This was a <a href="https://leetcode.com/discuss/study-guide/3458761/Open-to-Registration!-30-Days-of-LC-JavaScript-Challenge/?utm_campaign=Banner10&amp;utm_medium=Banner&amp;utm_source=Banner&amp;gio_link_id=noqbNLA9">Thirty Days of JavaScript</a> challenge over on LeetCode. It's a nice sequence, building up to harder problems and focussing on fundametals, I do recommend it!</p>
 <p>I was proud that I managed to work this out sans google/the editorial. It's also faster <em>and</em> simpler than the provided solutions and 90%+ of submissions on speed <em>and</em> memory efficiency. This is efficiency comes from avoiding object creation and recursion, and we don't add complexity to avoid those.</p>
 <h2 id="what-the-heck-is-currying">What the heck is currying?</h2>
 <p>If you have a function of several arguments, e.g. <code>add</code> below,it might be convenient to set the value of the first argument in a new function like <code>add2</code>.</p>
